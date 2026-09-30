@@ -14,9 +14,6 @@ let projects = [
     { id: 2, title: 'mobile application', status: 'complete' }
 ];
 
-app.get('/home', (req, res) => {
-    res.json({ message: 'welcome to the page ' });
-});
 
 app.get('/user', (req, res) => {
     res.json({
@@ -44,7 +41,7 @@ app.post('/user', (req, res) => {
     if (!name || !email) {
         return res.status(400).json({ 
             success: false, 
-            message:'user added successfully',
+            message:'please enter the name and email correctly ',
         });
     }
 

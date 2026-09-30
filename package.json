@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "express": "^5.2.1"
-  }
+  },
+  "name": "backend_entry_task",
+  "version": "1.0.0",
+  "description": "Markdown\r # backend-entry-task",
+  "main": "java.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nourmhmadshaban8-web/backend_entry_task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nourmhmadshaban8-web/backend_entry_task/issues"
+  },
+  "homepage": "https://github.com/nourmhmadshaban8-web/backend_entry_task#readme"
 }
